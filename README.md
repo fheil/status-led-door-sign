@@ -4,6 +4,7 @@ A WS2812B LED-Stripe based door sign to show your office status.
 In my office I have a glass pane with a frame next to the door. An LED strip panel is clamped under the frame to display the status outside (through the glass pane). 
 
 This project is based on a Wemos/Lolin D1 mini with a WS2812B LED-Strip, a touch LED-Button (to change status) and a 0.96 OLED-Display, to show the status inside my office. 
+
 20231203: added support for esp32c3 supermini.
 
 I've added some STL-files für 3D printing. Beside the base carrier plate (made for my glass pane) you probably can reuse the housing.
