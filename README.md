@@ -31,7 +31,7 @@ You need at least the following libraries (Tool - Manage Libraries... ) to compi
 https://github.com/adafruit/Adafruit-GFX-Library
 https://github.com/adafruit/Adafruit_NeoPixel
 ```
-search for them in the arduino-ide and add the libraries (there are plenty of how-to in the www, so this is skipped here...). 
+search for them in the arduino-ide and add the libraries (there are plenty of tutorials in the www, so this is skipped here...). 
 
 # adjustments
 There is one file, where the status an your name is configured. See [hl_state3034.h](./doorsign/hl_state3034.h).
