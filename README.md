@@ -10,6 +10,8 @@ This project is based on a Wemos/Lolin D1 mini with a WS2812B LED-Strip, a touch
 I've added some STL-files für 3D printing. Beside the base carrier plate (made for my glass pane) you probably can reuse the housing.
 
 Pictures will follow soon...
+# wiring
+![image](https://github.com/fheil/status-led-door-sign/assets/5410264/aa7d8198-a6e0-4e58-bf38-db58aa44233e)
 
 # prerequisites
 In the arduino-ide go to File - Preferences ... - Settings. Use the following additional boards manager URLs:
