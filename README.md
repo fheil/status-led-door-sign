@@ -34,12 +34,10 @@ https://github.com/adafruit/Adafruit_NeoPixel
 search for them in the arduino-ide and add the libraries (there are plenty of tutorials in the www, so this is skipped here...). 
 
 # adjustments
-There is one file, where the status an your name is configured. See [hl_state3034.h](./doorsign/hl_state3034.h).
+There is one file, where the status and your name is configured. See [hl_state3034.h](./doorsign/hl_state3034.h).
 
 I already added OTA (over the air) update to the code https://github.com/fheil/status-led-door-sign/blob/dde38e1420725f109ad70f99372021c18aa49832/doorsign/doorsign.ino#L41
 
-But this will not work for your first upload or if your are not in the WiFi. The routine loops forever to get into the WiFi, so this cut be a deadlock. To inhibt this, there is a define in the doorsign.ino.
-```
-//#define USE_OTA
-```
+But this will not work for your first upload or if your are not in the WiFi. The routine loops forever to get into the WiFi, so this could be a deadlock. To inhibt this, there is a define to enable or disable OTA: https://github.com/fheil/status-led-door-sign/blob/72b7999178189b431ecba22cc7655f0e8b36273f/doorsign/doorsign.h#L3
+
 If not commented, OTA will be available. If you don't need/want OTA, just comment out the define.
