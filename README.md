@@ -36,7 +36,9 @@ search for them in the arduino-ide and add the libraries (there are plenty of tu
 # adjustments
 There is one file, where the status an your name is configured. See [hl_state3034.h](./doorsign/hl_state3034.h).
 
-I already added OTA (over the air) update to the code (see https://github.com/fheil/status-led-door-sign/blob/dde38e1420725f109ad70f99372021c18aa49832/doorsign/doorsign.ino#L41). But this will not work for your first upload or if your are not in the WiFi. The routine loops forever to get into the WiFi, so this cut be a deadlock. To inhibt this, there is a define in the doorsign.ino.
+I already added OTA (over the air) update to the code https://github.com/fheil/status-led-door-sign/blob/dde38e1420725f109ad70f99372021c18aa49832/doorsign/doorsign.ino#L41
+
+But this will not work for your first upload or if your are not in the WiFi. The routine loops forever to get into the WiFi, so this cut be a deadlock. To inhibt this, there is a define in the doorsign.ino.
 ```
 //#define USE_OTA
 ```
