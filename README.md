@@ -2,6 +2,7 @@
 
 A WS2812B LED stripe based door sign to show your office status.
 
+## description
 In my office I have a glass pane with a frame next to the door. An LED strip panel is clamped under the frame to display the status outside (through the glass pane). 
 
 This project is based on a Wemos/Lolin D1 mini with a WS2812B LED-Strip, a touch LED-Button (to change status) and a 0.96 OLED-Display, to show the status inside my office. 
@@ -18,10 +19,10 @@ on the left: view from inside with control unit, on the right: visitors view
 
 cycling rainbow, just for fun and for checking the LEDs
 
-# wiring
+## wiring
 ![image](https://github.com/fheil/status-led-door-sign/assets/5410264/aa7d8198-a6e0-4e58-bf38-db58aa44233e)
 
-# prerequisites
+## prerequisites
 In the arduino-ide go to File - Preferences ... - Settings. Use the following additional boards manager URLs:
 ```
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
@@ -34,7 +35,7 @@ https://github.com/adafruit/Adafruit_NeoPixel
 ```
 search for them in the arduino-ide and add the libraries (there are plenty of tutorials in the www, so this is skipped here...). 
 
-# adjustments
+## adjustments
 There is one file, where the status and your name is configured. See [hl_state3034.h](./doorsign/hl_state3034.h).
 
 I already added OTA (over the air) update to the code https://github.com/fheil/status-led-door-sign/blob/dde38e1420725f109ad70f99372021c18aa49832/doorsign/doorsign.ino#L41
