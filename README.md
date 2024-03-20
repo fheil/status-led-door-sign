@@ -26,7 +26,7 @@ In the arduino-ide go to File - Preferences ... - Settings. Use the following ad
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 ```
-You need at least the following libraries (Tool - Manage Libraries... -, to compile the code:
+You need at least the following libraries (Tool - Manage Libraries... ), to compile the code:
 ```
 https://github.com/adafruit/Adafruit-GFX-Library
 https://github.com/adafruit/Adafruit_NeoPixel
