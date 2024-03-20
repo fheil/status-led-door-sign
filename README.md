@@ -1,5 +1,5 @@
 # status-led-door-sign
-A WS2812B LED-Stripe based door sign to show your office status.
+A WS2812B LED stripe based door sign to show your office status.
 
 In my office I have a glass pane with a frame next to the door. An LED strip panel is clamped under the frame to display the status outside (through the glass pane). 
 
@@ -11,7 +11,7 @@ I've added some STL-files für 3D printing. Beside the base carrier plate (made 
 
 ![image](https://github.com/fheil/status-led-door-sign/assets/5410264/5d101d8a-6d45-43f9-a4ec-51eeb84ef93c)
 
-on the left: view from inside with control unit, onn the right: visitors view
+on the left: view from inside with control unit, on the right: visitors view
 
 ![image](https://github.com/fheil/status-led-door-sign/assets/5410264/137c1508-5a4b-41eb-8841-d309b6f06d29)
 
